@@ -96,8 +96,8 @@ class _HomeScreenState extends State<HomeScreen> {
           );
           if (input != null && input.trim().isNotEmpty) _addTask(input);
         },
-        child: Icon(Icons.add),
         backgroundColor: Colors.blue,
+        child: Icon(Icons.add),
       ),
       body: Column(
         children: [
